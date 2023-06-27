@@ -1,0 +1,144 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1203px;
+  margin-inline: auto;
+}
+.btn {
+  border-radius: 5px;
+  background: #423f3e;
+  padding: 11px 15px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+/* header  */
+
+.header {
+  padding: 34px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background: #c4c4c4;
+}
+
+.header__ul {
+  display: flex;
+  gap: 20px;
+}
+
+.header__a {
+  color: #2b2b2b;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.h1 {
+  color: #2b2b2b;
+  text-align: center;
+  font-size: 64px;
+  font-family: Nunito Sans;
+  font-weight: 700;
+  line-height: 120%;
+}
+main {
+  padding-top: 229px;
+  padding-bottom: 331px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: #2b2b2b;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 120%;
+  height: 169px;
+  width: 960px;
+}
+p {
+  color: #2b2b2b;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+  padding-top: 31px;
+  height: 156px;
+  width: 960px;
+}
+/* header and */
+
+/*services */
+.services {
+  display: flex;
+  gap: 68px;
+  justify-content: space-between;
+}
+
+.servises__image {
+  width: 534px;
+  height: 534px;
+  margin-bottom: 100px;
+}
+
+.servises__info {
+}
+.servises__title {
+  color: #2b2b2b;
+  font-size: 53px;
+  font-family: Nunito Sans;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 60px;
+}
+.servises__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 52px;
+}
+.info {
+}
+.info__text {
+  color: #2b2b2b;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+.info__link {
+  color: #2b2b2b;
+  text-align: center;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-weight: 700;
+  line-height: 28px;
+}
